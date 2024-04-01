@@ -1,0 +1,74 @@
+body {
+    font-family: sans-serif;
+    color: #fff;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background-image: url(../gambar/banner3.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #a81385;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia;
+}
+
+header a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.wrapper {
+    width: 400px;
+    border: 2px solid #890f7b;
+    padding: 20px;
+    text-align: left;
+    margin-top: 20px;
+    color: #0c0664;
+}
+
+.photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 80px;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr td {
+    padding: 0;
+}
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #fccbea;
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+}
+    
+footer a {
+    text-decoration: none;
+    color: #890f7b;
+}

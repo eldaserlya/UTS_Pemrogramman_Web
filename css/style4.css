@@ -1,0 +1,100 @@
+body {
+    font-family: 'Bahnschrift', sans-serif ;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    overflow-x: hidden;
+    background-image: url(../gambar/banner5.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.letter {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+header {
+    background-color: #ffffff;
+    padding: 5px;
+    overflow: hidden;
+}
+header img {
+    float: left;
+    margin-right: 20px;
+    width: 120px;
+    height: auto;
+}
+table.with-border {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.with-border th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    font-family: 'Bahnschrift', sans-serif;
+    line-height: 0.5;
+    font-size: 12px;
+}
+table.with-border td {
+    border: 1px solid black;
+    padding: 8px;
+    font-family: 'Bahnschrift', sans-serif;
+    line-height: 0.5;
+    font-size: 12px;
+}
+table.no-border {
+    width: 100%;
+    border-collapse: collapse;
+}      
+table.no-border th,
+table.no-border td {
+    padding: 8px;
+    text-align: left;
+    font-family: 'Bahnschrift', sans-serif;
+    line-height: 0.3;
+    font-size: 12px;
+}
+td.left-align {
+    text-align: left;
+}
+td.center-align {
+    text-align: center;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fccbea;
+    padding: 20px 0;
+    color: #890f7b;
+    transition: color 0.3s ease;
+    text-align: center; 
+    z-index: 999;
+}
+.footer a {
+    color: #890f7b;
+    text-decoration: none; 
+}
+
+.footer a:hover {
+    color: #f360df; 
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+.content {
+    flex: 1; 
+    overflow-y: auto; 
+    padding-bottom: 80px; 
+    border:2px solid #890f7b;
+}
