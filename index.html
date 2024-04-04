@@ -1,38 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Biodata</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style7.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/jpg" href="gambar/icon.jpg">
-
+    <title>Login awal</title>
 </head>
 <body>
-    <div class="medsos">
-        <div class="container">
-            <ul>
-                <li><a href="https://www.instagram.com/xel_srly?igsh=MTFsNWdianVjNHRneg=="><i class="fa-brands fa-square-instagram"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-telegram"></i></a></li>
-            </ul>
-        </div>
+    <div class="wrapper">
+        <form action="index.html" method="post">
+            <h1 style="font-family: Verdana, Geneva, Tahoma, sans-serif;"><b><i>Login</i></b></h1>
+
+            <div class="input-box">
+                <input type="text" placeholder="Username"required>
+                <i class='bx bxs-user'></i>
+            </div>
+            <div class="input-box">
+                <input type="password" placeholder="Password"required>
+                <i class='bx bxs-lock-alt'></i>
+            </div>
+            <div class="remember-forgot">
+                <label><input type="checkbox">Remember Me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+
+            <button type="submit" class="btn">Login <a href="index.html"></a></button>
+
+            <div class="register-link">
+                <p>Don`t have an account?
+                    <a href="pendaftaran.html">Register</a>
+                </p>
+            </div>
+        </form>
     </div>
-    <header>
-        <div class="container">
-        <h1><a href="index.html">Sevianaelda</a></h1>
-        <ul>
-            <li class="active"><a href="index.html">HOME</a></li>
-            <li><a href="profil.html">PROFILE</a></li>
-            <li><a href="aboutMe.html">ABOUT ME</a></li>
-            <li><a href="jadwal.html">LECTURE SCHEDULE</a></li>
-            <li><a href="hobi.html">MY HOBBY</a></li>
-            <li><a href="pendaftaran.html">REGISTRATION PAGE</a></li>
-        </ul>
-        </div>
-    </header>
-    <section class="banner">
-        <h2>WELCOME TO MY WEBSITE</h2>
-    </section>
+
 </body>
 </html>
