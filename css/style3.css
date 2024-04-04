@@ -64,26 +64,18 @@
     color: rgb(60, 12, 138);
     background-color: transparent;
 }
-.footer {
-    text-align: center;
+footer {
     margin-top: 20px;
-}
-.footer {
     text-align: center;
-    margin-top: 20px;
-    position: absolute; 
+    background-color: #fccbea;
+    width: 100%;
+    padding: 20px 0;
+    position: fixed; 
     bottom: 0;
-    width: 100%; 
-    background-color: #fccbea; 
-    padding: 20px 0; 
 }
-
-.footer a {
+footer a {
+    text-decoration: none;
     color: #890f7b;
-    text-decoration: none; 
-    transition: color 0.3s ease; 
+    margin: 0 10px; 
 }
-
-.footer a:hover {
-    color: #f360df; 
-}
+    

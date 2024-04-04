@@ -32,6 +32,7 @@ header{
 header h1{
     padding: 15px 0;
     color: #3a107d;
+    font-family: 'Courier New', Courier, monospace;
 }
 header ul{
     margin-top: 5px; /* Menambahkan margin atas untuk estetika */
